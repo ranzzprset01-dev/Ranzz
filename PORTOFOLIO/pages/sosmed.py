@@ -80,7 +80,7 @@ col1, col2 = st.columns(2, gap="large")
 
 with col1:
     with st.container(border=True):
-        st.image("pages/TIKTOK.webp", use_container_width=True)
+        st.image("PORTOFOLIO/pages/TIKTOK.webp", use_container_width=True)
         st.markdown("### TikTok")
         st.caption("Video, cerita, dan konten terbaru")
         st.link_button(
@@ -91,7 +91,7 @@ with col1:
 
 with col2:
     with st.container(border=True):
-        st.image("pages/INSTAGRAM.webp", use_container_width=True)
+        st.image("PORTOFOLIO/pages/INSTAGRAM.webp", use_container_width=True)
         st.markdown("### Instagram")
         st.caption("Foto dan momen keseharian")
         st.link_button(
