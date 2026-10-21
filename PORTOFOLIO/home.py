@@ -132,12 +132,12 @@ st.markdown(
 col1, col2, col3, col4, col5 = st.columns([2, 1, 2, 1, 2])
 
 with col1:
-    st.image("pages/OIP.webp", width=200)
+    st.image("PORTOFOLIO/pages/OIP.webp", width=200)
     st.page_link("pages/kemampuan.py", label="lihat kemampuan", use_container_width=True)
     st.page_link("pages/profil.py", label="lihat profil", use_container_width=True)
     st.page_link("pages/sosmed.py", label="lihat sosmed", use_container_width=True)
 with col3:
-    st.video("pages/my video.mp4", width=640, autoplay=True, muted=False, loop=True)
+    st.video("PORTOFOLIO/pages/my video.mp4", width=640, autoplay=True, muted=False, loop=True)
 with col5:
-    st.image("pages/unduhan.jpeg", width=200)
-    st.image("pages/unduhan.webp", width=200)
+    st.image("PORTOFOLIO/pages/unduhan.jpeg", width=200)
+    st.image("PORTOFOLIO/pages/unduhan.webp", width=200)
